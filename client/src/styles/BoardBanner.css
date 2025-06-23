@@ -1,0 +1,37 @@
+.board-banner {
+  width: 100%;
+  min-height: 56px;
+  background: linear-gradient(90deg, #6A6DCD 0%, #307FE2 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  padding: 0 32px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 12px 0 rgba(48,127,226,0.08);
+  transition: all 0.2s;
+}
+
+.board-banner .board-url {
+  font-size: 1rem;
+  opacity: 0.7;
+  margin-left: 16px;
+  word-break: break-all;
+}
+
+@media (max-width: 600px) {
+  .board-banner {
+    font-size: 1.1rem;
+    padding: 0 12px;
+    min-height: 44px;
+    border-radius: 8px;
+  }
+  .board-banner .board-url {
+    font-size: 0.85rem;
+    margin-left: 8px;
+  }
+}

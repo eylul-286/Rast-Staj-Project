@@ -1,0 +1,23 @@
+
+body{
+  background-color: #000000;
+}
+
+/* Genel düzen için App.jsx'teki ana kapsayıcıya stil verilecek */
+
+.board-container {
+  padding: 20px;
+  display: flex; /* Kartların yan yana durmasını sağlar */
+  flex-wrap: wrap; /* Kartların alt satıra geçmesini sağlar */
+  gap: 16px; /* Kartlar arasındaki boşluk */
+  justify-content: center; /* Kartları ortalar */
+  align-items: flex-start; /* Kartları üstten hizalar */
+  width: 100%; /* Genişliği ayarlar */
+}
+
+@media (max-width: 768px) {
+  .board-container {
+    flex-direction: column; /* Küçük ekranlarda dikey sıralama */
+    align-items: center; /* Dikeyde ortalama */
+  }
+}

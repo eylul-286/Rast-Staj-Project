@@ -1,0 +1,22 @@
+.base-card {
+  background-color: #262626;
+  color: #FFFFFF;
+  border-radius: 0.75rem;       /* 12px */
+  padding: 1rem;                /* 16px */
+  margin: 0;                    /* Kartlar arasında boşluk bırakmaz */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+  width: 100%;                  /* genişlik tamamen kapsasın */
+  max-width: 368px;             /* maksimum 368px’i geçmesin */
+  height: fit-content;          /* içeriğe göre yükseklik */
+  box-sizing: border-box;
+  flex: 1 1 0;                  /* Esnek büyüme ve yan yana dizilim */
+  min-width: 300px;             /* Minimum genişlik */
+}
+
+/* Başlık */
+.base-card h1 {
+  font-family: 'SF Pro Display', 'Segoe UI', 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;           /* 36px */
+  line-height: 2.75rem;         /* 44px */
+}
