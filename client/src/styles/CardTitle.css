@@ -1,21 +1,21 @@
 .card-title {
-  width: 100%;                /* container genişliğine uysun */
-  max-width: 320px;           /* ama belli bir sınırı aşmasın */
+  width: 100%;              
+  max-width: 320px;         
 
-  border-radius: 0.5rem;      /* 8px */
-  padding: 0.4rem;              /* 16px */
-  margin-top: 1.25rem;        /* 20px */
+  border-radius: 0.5rem;      
+  padding: 0.4rem;             
+  margin-top: 1.25rem;       
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  background-color: #333;     /* ya da prop'tan geliyorsa inline style */
+  background-color: #333;    
 margin-left: -7px;
 
 }
 
-/* Başlık */
+
 .card-title h1 {
   margin-left: 1rem;
-  font-size: 1rem;            /* 16px */
-  margin-bottom: 0.5rem;      /* 8px */
+  font-size: 1rem;           
+  margin-bottom: 0.5rem;      
 
   font-weight: 600;
   line-height: 1.5;
@@ -23,11 +23,11 @@ margin-left: -7px;
   text-align: start;
 }
 
-/* Açıklama */
+
 .card-title p {
 
   margin-left: 1rem;
-  font-size: 0.875rem;        /* 14px */
+  font-size: 0.875rem;      
   color: rgba(255, 255, 255, 0.8);
   font-weight: 400;
   line-height: 1.4;
@@ -39,7 +39,7 @@ margin-left: -7px;
  
   border-radius: 2px;
   width:fit-content;  ;
-      color: #999999;            /* gri yazı rengi */
+      color: #999999;          
       height: fit-content;  
       border: 1px solid #FFFFFFBF;
       background-color: transparent; 
