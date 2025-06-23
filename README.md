@@ -48,3 +48,52 @@ Uygulama `http://localhost:5173` adresinde çalışacaktır (veya terminalde bel
 ## Proje Yol Haritası
 
 Projenin detaylı yol haritası ve geliştirme notları için [PROJE_YOL_HARİTASI.md](PROJE_YOL_HARITASI.md) dosyasına bakınız.
+
+1.SORUNUN CEVABI 
+-Proje Adı
+ Kanban Board Uygulaması
+
+-Projeden Anladıklarım
+Bu proje, web tabanlı bir Kanban board uygulamasıdır. Kullanıcılar, işleri veya görevleri liste halinde yönetebilir, farklı sütunlarda (örneğin Backlog, To Do, In Progress, Done) kartlar oluşturulur ve bu kartları sürükle bırak yöntemiyle hareket ettirebilirler.
+
+Özellikler:
+
+Çoklu liste (sütun) yapısı
+
+Her listede birden fazla kart (görev)
+
+Kartların listeler arasında ve liste içinde taşınabilmesi (drag and drop)
+
+Kart ve liste bilgilerini localStorage gibi kalıcı alanlarda saklama
+
+React.js ile frontend geliştirme
+
+GitHub üzerinde sürüm kontrolü
+
+
+-Proje İçerisinde İzlediğim Adımlar
+Proje Yapısını İnceleme:
+
+src klasörü ve alt klasörlerindeki bileşenler gözden geçirildi.
+
+Board.jsx, KanbanBoard.jsx gibi temel dosyaların görevleri anlaşıldı.
+
+React Kurulumu ve Çalıştırma:
+
+npm install ile bağımlılıklar yüklendi.
+
+npm run dev ile proje yerel ortamda başlatıldı.
+
+Veri Yönetimi:
+
+Kart ve listelerin nasıl tutulduğunu anlamak için state yönetimi ve localStorage kontrolü yapıldı.
+
+Drag and Drop Özelliği:
+
+react-beautiful-dnd veya @hello-pangea/dnd gibi kütüphanelerle sürükle bırak işleminin nasıl yapılacağı araştırıldı ve eklendi.
+
+
+Projenin GitHub’a Yüklenmesi:
+
+Git komutlarıyla proje versiyon kontrolüne alındı ve GitHub’a push edildi.
+
